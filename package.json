@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/lavie18years/git-exercise#readme",
   "dependencies": {
+    "materialize-css": "^1.0.0",
+    "react-materialize": "^3.10.0",
     "react-router-dom": "^6.13.0"
   }
 }
