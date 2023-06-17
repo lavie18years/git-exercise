@@ -39,23 +39,12 @@
   }
 }
 
-.nav {
-  background-color: rgba(49, 0, 108, 0.911);
-  text-align: left;
-  display: flex;
+.menu{
   justify-content: space-between;
   align-items: center;
 }
-
-.nav .active {
-  color: aliceblue;
-  padding: 17px 20px;
-  text-decoration: none;
-}
-
-.nav .active:hover {
-  background-color: rgb(255, 255, 255);
-  color: #000000;
+.menu .brand-logo{
+  left: 1rem;
 }
 
 .content {
@@ -78,7 +67,7 @@
   background-color: rgba(49, 0, 108, 0.911);
 }
 
-.footer {
+/* .footer {
   position: relative;
   width: 100%;
   bottom: 0;
@@ -87,7 +76,7 @@
   margin-top: 10px;
   padding: 5px 0;
   color: white;
-} 
+}  */
 
 .container {
   margin:20px;
