@@ -32,7 +32,96 @@
   from {
     transform: rotate(0deg);
   }
+
+  
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  background-color: rgba(49, 0, 108, 0.911);
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .active {
+  color: aliceblue;
+  padding: 17px 20px;
+  text-decoration: none;
+}
+
+.nav .active:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 10px;
+}
+
+.content .box {
+  background-color: rgba(143, 143, 143, 0.3);
+}
+
+.content .box .card img {
+  height: 100%;
+  width: 100%;
+}
+
+.but button:hover {
+  background-color: rgba(49, 0, 108, 0.911);
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(49, 0, 108, 0.911);
+  margin-top: 10px;
+  padding: 5px 0;
+  color: white;
+} 
+
+.container {
+  margin:20px;
+}
+
+.container .row .product-tumb {
+  height: 100%;
+  padding: 0 26rem;
+}
+
+.container .row .product-tumb img {
+  width: 100%;
+}
+
+.container .row .product-details {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 5px 10px rgba(49, 0, 108, 0.911);
+}
+
+.container .row .product-details .product-info {
+  padding: 10px;
+}
+
+.container .row .product-details .product-info h2 {
+  margin: 5px;
+  color: rgb(172, 27, 1);
+}
+
+.container .row .product-details .product-info h3 {
+  margin: 5px;
+  color: rgb(167, 172, 1);
+}
+
+.container .row .product-details .product-info h5 {
+  margin: 5px;
+  color: rgb(0, 67, 155);
 }
