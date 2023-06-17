@@ -4,6 +4,7 @@ import ListOfPlayers from './Shared/ListOfPlayers';
 import Navigation from './component/Navigation';
 import Footer from './component/Footer';
 import Detail from './component/Detail';
+import News from './component/News';
 import {
   Routes,
   Route,
@@ -11,13 +12,15 @@ import {
 function App() {
   return (
     <div className='App'>
-      <Navigation/>
+      <Navigation />
       <Routes>
-          <Route path='/' element={<Player/>}> 
-      </Route>
-      <Route path='/detail/:id' element={<Detail/>}></Route>
+        <Route path='/' element={<Player />}>
+        </Route>
+        <Route path='/detail/:id' element={<Detail />}></Route>
+        <Route path='/news' element={<News />}></Route>
+
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

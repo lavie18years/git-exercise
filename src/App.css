@@ -114,3 +114,24 @@
   margin: 5px;
   color: rgb(0, 67, 155);
 }
+
+.modal-show {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vmax;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+
+.box-news{
+  background-color: rgb(184, 173, 173);
+  margin: 30px;
+}
+.box-news p{
+  font-weight: 200;
+  font-size: larger;
+}
